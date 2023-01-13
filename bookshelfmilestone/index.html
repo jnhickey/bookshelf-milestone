@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Bookshelf</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+
+    <nav class="nav">
+      <h1 class="header">Bookshelf</h1>
+      <header class="links">
+        <a class="link" href="index.html">Home</a>
+        <a class="link" href="about.html">About</a>
+        <a class="link" href="contact.html">Contact</a>
+      </header>
+      
+
+
+      <section class="addBooks">
+        <input placeholder="Title" class="title" />
+        <input placeholder="Author" class="author" />
+        <input placeholder="Language" class="language" />
+        <input placeholder="Subject" class="subject" />
+        <button class="addBtn">Add</button>
+      </section>
+
+      <section class="search">
+        <input placeholder="Search for a book..." />
+        <button class="searchBtn">Search</button>
+      </section>
+      
+      <section class="sort">
+        <label>Sort by</label>
+        <select class="filter">
+          <option>Filter</option>
+          <option value="titleaz">Title A-Z</option>
+          <option value="titleza">Title Z-A</option>
+          <option value="favorites">Favorites</option>
+        </select>
+      </section>
+    </nav>
+   
+    <main id="app">
+      <ul class="books"></ul>
+    </main>
+ 
+    <script src="js/book-data.js"></script>
+    <script src="js/myBook.js"></script>
+    <script src="js/myBookshelf.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

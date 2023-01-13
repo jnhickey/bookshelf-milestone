@@ -1,0 +1,54 @@
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.links {
+  display: flex;
+  background-color: lightblue;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+.book {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 70rem;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+  border: solid 3px;
+
+}
+
+.addBooks {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
